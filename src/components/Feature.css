@@ -1,0 +1,44 @@
+.feature-container {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.feature-container .icon {
+    color: #b99470;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 65px;
+    height: 60px;
+    border: 2.5px solid #b99470;
+}
+
+.feature-container .text{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.feature-container .text h4 {
+    position: relative;
+    font-size: 24px;
+    font-family: 'Cormorant';
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.feature-container .text h4::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+    border: 1px solid #b99470;
+}
+
+.feature-container .text p {
+    width: 455px;
+    font-size: 14px;
+    color: #999;
+}

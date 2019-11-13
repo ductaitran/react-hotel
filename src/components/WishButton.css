@@ -1,0 +1,38 @@
+.button-container {
+    position: sticky; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 50px;
+    bottom: 100px;
+    border-radius: 50px;
+    transition: .3s;
+    padding: 3px;
+}
+
+.button-container .sticky-button {
+    font-size: 30px;
+    color: rgb(9, 98, 114); 
+}
+
+.button-container .item-number {
+    position: absolute;
+    color: red;
+    font-weight: bolder;
+    right: 0;
+    top: 0;
+}
+
+.button-container:hover {
+    background: #2c3e50;
+}
+
+.button-container:hover .sticky-button {
+    color: white;
+}
+
+.button-container:hover .item-number {
+    /* color: white; */
+    display: none;
+}

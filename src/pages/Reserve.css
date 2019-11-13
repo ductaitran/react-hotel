@@ -1,0 +1,10 @@
+.body-container {
+    height: 500px;
+}
+
+.user-form {
+    padding: 20px;
+    background-color: white;
+
+    box-shadow: 10px 1px 16px 0px #aba2ab; 
+}

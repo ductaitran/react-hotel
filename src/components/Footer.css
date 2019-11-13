@@ -1,0 +1,102 @@
+hr {
+  background-color: #6c757d;
+  width: 88%;
+}
+
+.footer {
+    padding-top:50px;
+    bottom: 0;
+    height: 400px;
+    color: #6c757d;
+    background-color: #1a1a1a;
+  }
+
+.footer-item {
+  margin-top: 20px;
+}
+
+.footer-item div h6 {
+  position: relative;
+}
+
+.footer-item div ul{
+  position: absolute;
+  left: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.social-brand a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #2c3e50;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: .8s;
+}
+
+.social-brand a:active {
+  color: #6c757d;
+}
+
+.social-brand a:visited {
+  color: #6c757d;
+}
+
+.social-brand a:hover {
+  /* color: #9aa3ac; */
+  background: #2c3e50;
+  color: white;
+}
+
+.quick-menu-container div {
+  font-size: 15px;
+  line-height: 2;
+}
+
+@media (min-width: 992px) {
+  .quick-menu-container {
+    text-align: left;
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 993px) {
+  .footer {
+    height: 700px;
+  }
+}
+  
+.sign-up input{
+  background-color:#1a1a1a; 
+  border: none;
+  border-bottom: 1px solid #6c757d;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.sign-up input:focus {
+  color: whitesmoke;
+  border: none;
+  border-bottom-color: whitesmoke;
+}
+
+.sign-up span {
+  color :whitesmoke;
+}
+
+.sign-up span:hover {
+  cursor: pointer;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.contact-icon {
+  color: orangered;
+}

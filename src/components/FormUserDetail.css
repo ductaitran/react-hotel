@@ -1,0 +1,13 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.label {
+    text-align: left;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+}
